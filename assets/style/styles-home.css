@@ -53,3 +53,92 @@
     margin-right: 150px;
 }
 
+
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: 505px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-principal {
+    width: 1133px;
+    height: 312px;
+    margin-top: 48px;
+    margin-left: 100px;
+    border: 1px;
+}
+
+.footer-top > ul {
+    list-style: none;
+    display: flex;
+    
+}
+.footer-nomeempresa{
+    margin-right: 100px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.footer-links {
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    display: flex;
+    margin-left: 200px; 
+}
+.footer-informations{
+    display: flex;
+}
+.adress {
+    width: 285px;
+    height: 72px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+
+.footer-links__pages { 
+    margin-left: 50px;
+}
+.footer-links__pages>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 15px;
+    color: #000000;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-help {
+    margin-left: 85px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.footer-subscribe > input { 
+    margin-left: 90px;
+    border: none;
+    border-bottom: 1px solid;
+}
