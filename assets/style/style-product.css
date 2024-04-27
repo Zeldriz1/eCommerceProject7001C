@@ -4,7 +4,8 @@ body{
 }
 nav{
     background-color: #F9F1E7;
-    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
 }
 
 nav>ul{
@@ -15,15 +16,27 @@ nav>ul{
 }
 
 nav>ul>li{
-    /* padding: 25px; */
     text-decoration: none;
     display: flex;
 }
 
-nav>ul>li>p{
+
+.parrow{
     padding-left: 99px;
     padding-top: 38px;
     padding-bottom: 38px;
+}
+
+.arrow{
+    padding-top: 39px;
+    padding-left: 21px;
+}
+
+.asgaardsec{
+    color: black;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 34px;
 }
 
 nav>ul>li>span{
@@ -31,10 +44,12 @@ nav>ul>li>span{
     height: 20px;
 }
 
-.arrow{
-    padding-top: 38px;
-}
 
+
+.bar{
+    padding-left: 25px;
+    padding-top: 31px;
+}
 
 nav>ul>div{
     padding-top: 45px;
@@ -53,8 +68,9 @@ nav>ul>li>p{
     color: #9F9F9F;
 }
 
-.asgaardsec{
-    color: black;
+main{
+    display: flex;
+    align-items: center;
 }
 
 
@@ -77,6 +93,7 @@ nav>ul>li>p{
     margin: 32px;
     background-color: #F9F1E7;
     justify-content: center;
+    border-radius: 15px;
 }
 
 
@@ -87,4 +104,22 @@ nav>ul>li>p{
     justify-content: center;
     padding-top: 65px;
     margin: 30px;
+    border-radius: 15px;
+}
+
+.firstasideimg{
+    padding-top: 7px;
+}
+
+.lastasideimg{
+    padding-top: 18px;
+}
+
+.info{
+    width: 606px;
+    height: 730px;
+    padding-left: 200px;
+    margin-left: 90px;
+    padding-top: 35px;
+    flex-direction: row;
 }
