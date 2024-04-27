@@ -1,0 +1,84 @@
+html{
+    width: 1440px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #F9F1E7;
+    font-size: 15px;
+}
+
+nav>ul{
+    justify-content: left;
+    align-items: left;
+    text-align: center;
+    display: flex;
+}
+
+nav>ul>li{
+    padding: 25px;
+    text-decoration: none;
+    display: flex;
+}
+
+nav>ul>li>span{
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+
+nav>ul>div{
+    padding-top: 45px;
+    padding-left: 25px;
+}
+
+
+nav>ul>img{
+    width: 14px;
+    height: 8px;
+}
+
+
+
+nav>ul>li>p{
+    color: #9F9F9F;
+}
+
+.asgaardsec{
+    color: black;
+}
+
+
+.container{
+    display: flex;
+    padding-left: 99px;
+    width: 553px;
+    height: 500px;
+}
+
+.asideimg{
+    width: 76px;
+    height: 416px;
+    margin: 30px;
+}
+
+.asideimg>div{
+    width: 76px;
+    height: 80px;
+    margin: 32px;
+    background-color: #F9F1E7;
+    justify-content: center;
+}
+
+
+.mainimg{
+    background-color: #F9F1E7;
+    width: 481px;
+    height: 500px;
+    justify-content: center;
+    padding-top: 65px;
+    margin: 30px;
+}
