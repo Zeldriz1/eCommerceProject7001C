@@ -1,0 +1,62 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.banner_shop {
+    display: flex;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.banner_shop img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+    filter: blur(3px);
+    opacity: .5;
+}
+
+.banner_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.alterarPagina {
+    display: flex;
+    align-items: center;
+}
+
+.banner_content h1, .banner_content p {
+    margin: 0;
+    padding: 0;
+}
+
+.navFiltros {
+    display: flex;
+    height: 100px;
+    background-color: #F9F1E7;
+}
+
+.filtros {
+    display: flex;
+}
+
+.filtros img {
+    margin-top: 35px;
+    margin-left: 98px;
+    margin-bottom: 35px;
+    width: 25px;
+    height: 25px;
+}
+
+.filtros p {
+    margin-top: 35px;
+}
