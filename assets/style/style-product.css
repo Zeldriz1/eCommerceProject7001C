@@ -1,21 +1,21 @@
 body{
     margin: 0;
     padding: 0;
-}
-nav{
-    background-color: #F9F1E7;
     font-family: "Poppins", sans-serif;
+}
+ul{
+    background-color: #F9F1E7;
     font-size: 16px;
 }
 
-nav>ul{
+ul{
     justify-content: left;
     align-items: left;
     text-align: center;
     display: flex;
 }
 
-nav>ul>li{
+ul>li{
     text-decoration: none;
     display: flex;
 }
@@ -39,7 +39,7 @@ nav>ul>li{
     padding-left: 34px;
 }
 
-nav>ul>li>span{
+ul>li>span{
     width: 20px;
     height: 20px;
 }
@@ -51,20 +51,20 @@ nav>ul>li>span{
     padding-top: 31px;
 }
 
-nav>ul>div{
+ul>div{
     padding-top: 45px;
     padding-left: 25px;
 }
 
 
-nav>ul>img{
+ul>img{
     width: 14px;
     height: 8px;
 }
 
 
 
-nav>ul>li>p{
+ul>li>p{
     color: #9F9F9F;
 }
 
@@ -120,6 +120,43 @@ main{
     height: 730px;
     padding-left: 200px;
     margin-left: 90px;
-    padding-top: 35px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.price{
+    color: #9F9F9F;
+    font-size: 24px;
+}
+
+section>div{
+    padding-bottom: 15px;
+}
+
+section>div>h1{
+    font-size: 42px;
+
+}
+
+section>div>div{
+    padding-bottom: 18px;
+}
+
+section>div>div>p{
+    color: #9F9F9F;
+}
+
+section>div>div{
     flex-direction: row;
 }
+
+.reviewline{
+    padding: 5px;
+}
+
+section>div>div>p{
+    display: inline-block;
+}
+
